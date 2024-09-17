@@ -14,7 +14,7 @@ function LinktopBoxlink(_element)
 		{ 
 			var url = 'https://textlink.linktop.vn/?adslk=';
 			//url += btoa(window.location.href)+'&dmn='+btoa(window.location.hostname);
-			url += btoa(https://baophapluat.vn/)+'&dmn='+btoa(baophapluat.vn);
+			url += btoa('https://baophapluat.vn/')+'&dmn='+btoa('baophapluat.vn');
 			const ajax = new XMLHttpRequest();
 			ajax.onreadystatechange = function()
 			{
