@@ -1,6 +1,6 @@
 function LinktopBoxlink(_element)
 {
-  const element = document.querySelector(_element);
+  const element = document.body.querySelector(_element);
   if (!element) {
     console.error("Element with selector", _element, "not found.");
     return;
